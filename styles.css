@@ -11,15 +11,16 @@
     background-color: rgb(127,225,192);
 }
 
-.subtitle {
+nav .subtitle {
     background-color: rgb(225,228,196);
+    border: 5px outset dodgerblue;
 }
 
+/* when mouse-over, button turns pink */
 button:hover {
     background-color: pink;
     transition: 0.7s;
-    
-}
+    }
 
 footer {
     text-align: center;
