@@ -1,0 +1,30 @@
+/* styles */
+
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.heading {
+    text-align: center;
+    color: black;
+    background-color: rgb(127,225,192);
+}
+
+.subtitle {
+    background-color: rgb(225,228,196);
+}
+
+button:hover {
+    background-color: pink;
+    transition: 0.7s;
+    
+}
+
+footer {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: rgb(127,225,192);
+}
