@@ -36,8 +36,13 @@ body .container-border {
     border: 5px inset aquamarine;
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
-
     
+}
+
+body {
+    background-image: url(images/food-background.jpg);
+
+ 
 }
 
 /* ---------SECTION 1--------- */
@@ -46,9 +51,9 @@ body .container-border {
     text-align: center;
     color: black;
     background: 
-        linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-        linear-gradient(127deg, rgba(32, 178, 240, 0.8), rgba(0,255,0,0) 70.71%),
-        linear-gradient(336deg, rgba(97, 217, 121, 0.8), rgba(0,0,255,0) 70.71%);
+        linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 90.71%),
+        linear-gradient(127deg, rgba(32, 178, 240, 0.8), rgba(0,255,0,0) 90.71%),
+        linear-gradient(336deg, rgba(97, 217, 121, 0.8), rgba(0,0,255,0) 90.71%);
     width: auto;
     height: auto;
     padding: 1px;
@@ -68,7 +73,7 @@ body .container-border {
 
 /* ---------SECTION 2--------- */
 /*MENU*/ 
-/*Main Dishes and Desserts*/
+/*Main Dishes and Desserts Tabs*/
 nav .subtitle {
     background-color: rgb(225,228,196);
     border: 5px outset rgb(36, 192, 137);
