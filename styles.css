@@ -9,7 +9,7 @@
 .nunito {
     font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400px;
+    font-weight: 400;
     font-style: normal;
 
 }
@@ -17,7 +17,7 @@
 .dancing-script {
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
-    font-weight: 400px;
+    font-weight: 400;
     font-style: normal;
     font-size:
 }
@@ -30,7 +30,15 @@ html {
     box-sizing: inherit;
 }
 
+/*Encompassing all contents except 
+ and footer*/
+body .container-border {
+    border: 5px inset aquamarine;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
 
+    
+}
 
 /* ---------SECTION 1--------- */
 /*Project Odin Recipes*/
@@ -44,6 +52,7 @@ html {
     width: auto;
     height: auto;
     padding: 1px;
+    border-top-right-radius: 40px;
 
 }
 
@@ -65,16 +74,19 @@ nav .subtitle {
     border: 5px outset rgb(36, 192, 137);
     display: inline-block;
     padding: 5px 15px;
-    margin: auto;
+    margin: 10px auto;
+    border-radius: 10px;
 }
 
-/*Navigation area*/
+
+/*Navigation area containing main dishes and desserts*/
 nav {
     width: 400x;
     margin: auto;
     padding: 1em;
     border: 5px outset rgb red;
     background-color: beige;
+    border-bottom-left-radius: 50px;
 
 }
 /* RECIPE BUTTONS when mouse-over, button turns pink*/
@@ -88,12 +100,23 @@ button:hover {
     margin: auto;
     display: inline-block;
     border-left: 5px solid rgb(127,225,192);
+    
 }
+/* ----------SECTION 3 INQUIRIES --------- */
+section p.inquiries {
+   background: yellow;
+    color: black;
+    width: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
 
-.inquiries {
-    text-align: center;
-    line-height: 20px;
-    height: 20px;
+    /* vertical center */
+        text-align: center;
+        line-height: auto;
+        height: auto;
+
+    /*horizontal center*/
+        margin: auto; 
 }
 
 span {
@@ -101,24 +124,16 @@ span {
     color: red;
     font-style: italic;
 }
-/*Encompassing all contents except footer*/
-body {
-    background-color: bisque;
-    border: 5px inset aquamarine;
-    padding-bottom: 45px;
-
-    
-}
 
 /*Footer at the bottom*/
-footer {
+footer div {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
     background-color: rgb(127,225,192);
-    margin-top: 80px;
+    margin-top: 100px;
     padding: 50px 50px 50px 50px;
     border: 10px outset aquamarine;
 }
