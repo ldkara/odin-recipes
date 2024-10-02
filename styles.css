@@ -18,6 +18,10 @@ html {
         linear-gradient(336deg, rgba(97, 217, 121, 0.8), rgba(0,0,255,0) 70.71%);
 }
 
+.recipe-icon {
+    margin: 10px;
+}
+
 nav .subtitle {
     background-color: rgb(225,228,196);
     border: 5px outset dodgerblue;
