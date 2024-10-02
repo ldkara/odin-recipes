@@ -81,6 +81,7 @@ nav .subtitle {
     padding: 5px 15px;
     margin: 10px auto;
     border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
 }
 
 
@@ -92,6 +93,8 @@ nav {
     border: 5px outset rgb red;
     background-color: beige;
     border-bottom-left-radius: 50px;
+    box-shadow: 0px -20px 90px gray, 0px 20px 90px gray;
+    
 
 }
 /* RECIPE BUTTONS when mouse-over, button turns pink*/
