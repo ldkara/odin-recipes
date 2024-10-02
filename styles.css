@@ -36,6 +36,9 @@ body .container-border {
     border: 5px inset aquamarine;
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
+    margin: auto;
+    margin-top: 50px;
+    width: 1200px;
     
 }
 
@@ -81,7 +84,7 @@ nav .subtitle {
     padding: 5px 15px;
     margin: 10px auto;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 5px 5px gray;
 }
 
 
@@ -111,37 +114,32 @@ button:hover {
     
 }
 /* ----------SECTION 3 INQUIRIES --------- */
-section p.inquiries {
-   background: yellow;
-    color: black;
-    width: auto;
-    padding-top: 25px;
-    padding-bottom: 25px;
-
-    /* vertical center */
-        text-align: center;
-        line-height: auto;
-        height: auto;
-
-    /*horizontal center*/
-        margin: auto; 
-}
-
-span {
-    font-weight:700;
-    color: red;
-    font-style: italic;
-}
-
-/*Footer at the bottom*/
-footer div {
+/*Footer at the bottom Project Odin Recipe | 2024*/
+footer section {
+    /*Positioning to the bottom of page*/
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    text-align: center;
     background-color: rgb(127,225,192);
-    margin-top: 100px;
-    padding: 50px 50px 50px 50px;
+    padding: auto;
     border: 10px outset aquamarine;
+
+    /* vertical center */
+    text-align: center;
+    line-height: auto;
+    height: auto;
+
+    /*horizontal center*/
+    margin: auto; 
+}
+
+section p.inquiries {
+     
+ }
+
+ span {
+    font-weight:700;
+    color: red;
+    font-style: italic;
 }
