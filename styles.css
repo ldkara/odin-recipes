@@ -31,7 +31,7 @@ html {
 }
 
 /*Encompassing all contents except 
- and footer*/
+ footer*/
 body .container-border {
     border: 5px inset aquamarine;
     border-top-right-radius: 50px;
@@ -123,6 +123,7 @@ footer section {
     width: 100%;
     background-color: rgb(127,225,192);
     padding: auto;
+    padding-top: 10px;
     border: 10px outset aquamarine;
 
     /* vertical center */
